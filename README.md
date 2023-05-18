@@ -1,7 +1,7 @@
 # Projeto Individual Mod02
 **Como rodar o código:**
 
- - Faça um fork do repositório e depois um git clone em: " https://github.com/wdson91/ProjetoIndividualMod02.git " 
+ - Faça um fork do repositório e depois um git clone em:  https://github.com/wdson91/ProjetoIndividualMod02.git 
  - Em seguida rode no vscode em uma máquina que tenha o python instalado
 
 **Descrição do código:**
