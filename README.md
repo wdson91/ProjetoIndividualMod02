@@ -9,7 +9,7 @@ O código apresentado é uma implementação que busca candidatos aprovados com 
    - A variável `numeros` é uma lista que armazena apenas as notas de cada candidato, extraídas da string de resultados.
 
 2. **Validação das entradas:**
-   - A função `validar_entrada` é usada para solicitar ao usuário as notas mínimas desejadas e validar se os valores inseridos são inteiros válidos.
+   - A função `validarEntrada` é usada para solicitar ao usuário as notas mínimas desejadas e validar se os valores inseridos são inteiros válidos.
 
 3. **Busca dos candidatos aprovados:**
    - A função `buscarCandidato` recebe as notas mínimas fornecidas como parâmetros.
