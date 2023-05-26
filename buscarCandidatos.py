@@ -37,21 +37,21 @@ for candidato in lista_candidatos:
         notas_candidatos.append(numeros_candidato) # criando uma lista somente com as notas de cada candidato
 
 def buscarCandidato(nota1,nota2,nota3,nota4):
-    aprovados = []
+    candidatos_aprovados = []
     lista_resultado = [nota1,nota2,nota3,nota4]
     
     for i,lista in enumerate(notas_candidatos):
         
         if all(x <= y for x, y in zip(lista_resultado, lista)):
-            aprovados.append({lista_candidatos[i]["nome"]:lista})
+            candidatos_aprovados.append({lista_candidatos[i]["nome"]:lista})
             
-    if len(aprovados) <1 :
+    if len(candidatos_aprovados) <1 :
         print('-'*60)
         print("\n Nenhum candidato aprovado com essas notas")   
     print('-'*60)
     print("\nCandidatos aprovados com as respectivas notas informadas:\n")
     
-    for i,candidato in enumerate(aprovados):
+    for i,candidato in enumerate(candidatos_aprovados):
         nome = list(candidato.keys())[0]
         notas = candidato[nome]
         print(f'{i+1} - {nome}: {", ".join(str(nota) for nota in notas)}\n')
